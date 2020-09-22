@@ -1,5 +1,11 @@
 www.mathdnavn.tk
 ;www.mathdnavn.tk.                     IN      A
-www.mathdnavn.tk.              3592    IN      CNAME   mathdnavn.github.io.
-mathdnavn.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
-GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+;www.mathdnavn.tk.              3592    IN      CNAME   mathdnavn.github.io.
+;mathdnavn.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+;GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+
+;www.mathdnavn.tk.              IN      A
+;tk.                     5       IN      SOA     a.ns.tk. joost\.zuurbier.dot.tk. 1600776507 10800 3600 604800 5
+
+;www.mathdnavn.tk.              IN      A
+tk.                     60      IN      SOA     a.ns.tk. joost\.zuurbier.dot.tk. 1600776507 10800 3600 604800 5
